@@ -44,7 +44,8 @@ const Signup = () => {
   }
   return (
     <div className="min-w-96 mx-auto">
-      <div className='w-full p-6 rounded-lg shadow-md bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-md bg-opacity-10 border border-gray-100'>
+     <div className="w-full p-6 rounded-lg shadow-md bg-white border border-black">
+
         <h1 className='text-3xl font-bold text-center'>Signup</h1>
         <form onSubmit={onSubmitHandler} action="">
           <div>
@@ -113,7 +114,7 @@ const Signup = () => {
           </div>
           <p className='text-center my-2'>Already have an account? <Link to="/login"> login </Link></p>
           <div>
-            <button type='submit' className='btn btn-block btn-sm mt-2 border border-slate-700'>Singup</button>
+            <button type='submit' className='btn btn-block btn-sm mt-2 bg-blue-600 hover:bg-blue-700 text-white border border-slate-700'>Singup</button>
           </div>
         </form>
       </div>
